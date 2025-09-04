@@ -64,4 +64,3 @@ Plugins/*/ThirdParty/**/*.dylib filter=lfs diff=lfs merge=lfs -text
 *.css filter= diff= merge= -text
 *.js filter= diff= merge= -text
 *.html filter= diff= merge= -text
-*.lib filter=lfs diff=lfs merge=lfs -text
