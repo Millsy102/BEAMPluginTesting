@@ -1,0 +1,38 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "Beam Eye Tracker",
+	"Description": "Official Unreal Engine plugin for the Eyeware Beam eye tracking SDK. Provides real-time eye and head tracking with low-latency buffering, One-Euro filtering, recording/playback tools, synthetic data generation, console command support, and full Blueprint integration for games and applications.",
+	"Category": "Input",
+	"CreatedBy": "Eyeware",
+	"CreatedByURL": "https://beam.eyeware.tech",
+	"DocsURL": "https://docs.beam.eyeware.tech/integration/game_engine.html",
+	"MarketplaceURL": "",
+	"SupportURL": "https://beam.eyeware.tech/support",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Plugins": [
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		}
+	],
+	"Modules": [
+		{
+			"Name": "BeamEyeTracker",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "BeamEyeTrackerEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+		}
+	],
+	"SupportedTargetPlatforms": [ "Win64" ],
+	"EngineVersion": "5.6.0",
+	"EnabledByDefault": true
+}
