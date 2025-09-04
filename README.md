@@ -153,10 +153,10 @@ The plugin provides extensive Blueprint support:
 ### Data Flow
 
 ```
-Beam Eye Tracker Hardware → Beam Eye Tracker Software → Beam SDK → SDK Wrapper → Filters → Subsystem → Component → Blueprint
+Camera Input → Beam Eye Tracker Software → Beam SDK → SDK Wrapper → Filters → Subsystem → Component → Blueprint
 ```
 
-**Note:** The Beam Eye Tracker software application must be running on your computer for the plugin to work. Download it from [https://beam.eyeware.tech](https://beam.eyeware.tech).
+**Note:** The Beam Eye Tracker software application must be running on your computer for the plugin to work. It processes camera input to provide eye tracking data. Download it from [https://beam.eyeware.tech](https://beam.eyeware.tech).
 
 ### Performance Features
 
