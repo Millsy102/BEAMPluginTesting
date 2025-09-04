@@ -316,8 +316,8 @@ beam.debug.test
 
 We need your feedback to improve the final release! Please report any issues you encounter:
 
-1. **Check existing issues** on [GitHub Issues](https://github.com/Millsy102/BEAMPluginTesting/issues)
-2. **Create a new issue** with detailed information:
+1. **Join our Discord** at [https://discord.gg/6cqASUEMgp](https://discord.gg/6cqASUEMgp)
+2. **Post in the appropriate channel** with detailed information:
    - **Description** of the problem
    - **Steps to reproduce**
    - **Expected vs. actual behavior**
@@ -361,21 +361,24 @@ This plugin is licensed under the terms provided by Eyeware Tech SA. See [LICENS
 ## 🆘 Support & Feedback
 
 ### Testing Support
-- **[GitHub Issues](https://github.com/Millsy102/BEAMPluginTesting/issues)** - Report bugs and provide feedback
-- **[Discussions](https://github.com/Millsy102/BEAMPluginTesting/discussions)** - Ask questions and share experiences
-- **Email**: Direct feedback to the repository maintainer
+- **[Discord Community](https://discord.gg/6cqASUEMgp)** - Report bugs and provide feedback
+- **Testing Discussions** - Join the Discord for questions and experiences
+- **Real-time Support** - Get immediate help from the testing community
 
 ### Documentation
-- [Plugin Documentation](https://docs.beam.eyeware.tech/integration/game_engine.html)
-- [API Reference](https://docs.beam.eyeware.tech/api/)
+- **This README** - Primary documentation for the testing release
+- **Code Comments** - Inline documentation in the source code
+- **Example Projects** - Check the `Content/Example` folder for usage examples
 
-### Community
-- [Eyeware Discord](https://discord.gg/eyeware) - Official Eyeware community
-- [Community Forum](https://community.eyeware.tech) - General Beam support
+### Community & Resources
+- **Eyeware Website** - [https://beam.eyeware.tech](https://beam.eyeware.tech) for Beam software
+- **Beam Software** - Download the required eye tracking application
+- **Testing Community** - Other developers testing this plugin
 
-### Commercial Support
-- [Enterprise Support](https://beam.eyeware.tech/support) - For production use
-- [Professional Services](https://beam.eyeware.tech/services) - Custom development
+### For Production Use
+- **Contact Eyeware Tech SA** - For commercial licensing and production support
+- **Official Release** - Wait for the official BEAM Plugin v1 release
+- **Enterprise Support** - Available through Eyeware for production deployments
 
 ## 🙏 Acknowledgments
 
