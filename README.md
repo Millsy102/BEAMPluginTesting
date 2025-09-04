@@ -60,8 +60,8 @@ This repository contains the early testing version of the BEAM Plugin for Unreal
 - **Not intended for production use**
 
 ### Current Status
-- **Version**: v1.0.0 (Testing Release)
-- **Release Date**: Early 2025
+- **Version**: v1.0.0 (Beta Testing Release)
+- **Release Date**: Ongoing development
 - **Stability**: Beta/Testing quality
 - **Support**: Community feedback and issue reporting
 
