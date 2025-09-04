@@ -11,7 +11,7 @@
 	"MarketplaceURL": "",
 	"SupportURL": "https://beam.eyeware.tech/support",
 	"CanContainContent": true,
-	"IsBetaVersion": true,
+	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
 	"Installed": true,
 	"Plugins": [
