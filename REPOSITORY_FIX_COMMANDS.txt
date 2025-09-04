@@ -1,0 +1,32 @@
+REPOSITORY FIX COMMANDS
+========================
+
+The issue is that your DLL files are being tracked by Git LFS and exceeding your GitHub LFS budget.
+I've already updated the .gitattributes file to stop tracking DLL files with LFS.
+
+Now you need to run these commands in order:
+
+1. First, untrack DLL files from LFS:
+   git lfs untrack "*.dll"
+
+2. Remove the DLL files from LFS tracking (but keep them in your working directory):
+   git rm --cached "Plugins/BeamEyeTracker/ThirdParty/BeamSDK/bin/win64/*.dll"
+
+3. Add the DLL files back to regular Git tracking:
+   git add "Plugins/BeamEyeTracker/ThirdParty/BeamSDK/bin/win64/*.dll"
+
+4. Amend your commit to use the same message as origin/main:
+   git commit --amend -m "v1 testing repo setup"
+
+5. Check the status:
+   git status
+
+6. Now you should be able to push:
+   git push origin main
+
+The key changes made:
+- Updated .gitattributes to exclude DLL files from LFS tracking
+- This prevents the "LFS budget exceeded" error
+- Standardizes all commit messages to "v1 testing repo setup"
+
+After running these commands, your repository should work normally without LFS budget issues.

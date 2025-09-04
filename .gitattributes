@@ -3,7 +3,7 @@
 
 # Executables and binaries (these are important for your plugin)
 *.exe filter=lfs diff=lfs merge=lfs -text
-*.dll filter=lfs diff=lfs merge=lfs -text
+# *.dll filter=lfs diff=lfs merge=lfs -text  # Commented out to avoid LFS budget issues
 *.so filter=lfs diff=lfs merge=lfs -text
 *.dylib filter=lfs diff=lfs merge=lfs -text
 *.bin filter=lfs diff=lfs merge=lfs -text
@@ -34,7 +34,7 @@
 *.rar filter=lfs diff=lfs merge=lfs -text
 *.7z filter=lfs diff=lfs merge=lfs -text
 
-# Documents (only large ones)
+# Documents (large ones)
 *.pdf filter=lfs diff=lfs merge=lfs -text
 
 # Video files (only if you have these)
@@ -55,7 +55,7 @@ Plugins/**/docs/** filter= diff= merge= -text
 
 # Plugin ThirdParty SDK files (track these as they're essential)
 # Only track large files (>1MB) - small lib files don't need LFS
-Plugins/*/ThirdParty/**/*.dll filter=lfs diff=lfs merge=lfs -text
+# Plugins/*/ThirdParty/**/*.dll filter=lfs diff=lfs merge=lfs -text  # Commented out to avoid LFS budget issues
 # Plugins/*/ThirdParty/**/*.lib filter=lfs diff=lfs merge=lfs -text
 Plugins/*/ThirdParty/**/*.so filter=lfs diff=lfs merge=lfs -text
 Plugins/*/ThirdParty/**/*.dylib filter=lfs diff=lfs merge=lfs -text
